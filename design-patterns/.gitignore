@@ -1,5 +1,7 @@
 HELP.md
 target/
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
@@ -11,11 +13,10 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-#.idea
+.idea
 *.iws
 *.iml
 *.ipr
-.idea/
 
 ### NetBeans ###
 /nbproject/private/
@@ -29,3 +30,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+.mvn
+mvnw
+mvnw.cmd
